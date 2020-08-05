@@ -9,7 +9,7 @@
 4. Медиа запросы
 5. Js
 
-ссылка на проект: https://github.com/Alexey-Nagaytsev/mesto.git
+ссылка на проект: https://github.com/Alexey-Nagaytsev/mesto.git/index.html
 
 ### Обзор
 
