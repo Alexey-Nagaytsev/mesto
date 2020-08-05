@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index/index.css">
+    <title>mesto</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img class="header__logo" src="./Images/logo_mesto.svg" alt="логотип">
+      </header>
+      <main class="content">
+
+        <section class="profile">
+          <img class="profile__avatar" src="./Images/profile_Jac_Yves_Cousto.svg" alt="кусто">
+          <div class="profile__info">
+            <div class="profile__button">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>           
+              <button class="profile__edit-button" type="button"></button> 
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+          <button class="profile__add-button"></button>
+        </section>
+
+        <section class="elements">
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/ilnur-kalimullin-XVUucY5j2ak-unsplash- kazan.jpg" alt="Казань">
+            <div class="elements__box">
+              <p class="elements__text">Казань</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/alexander-popov-r-f_bQwO7rk-unsplash.jpg" alt="Москва из-за угла">
+            <div class="elements__box">
+              <p class="elements__text">Москва из-за угла</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/alexander-popov-yHLTI3zwydg-unsplash.jpg" alt="Снежок">
+            <div class="elements__box">
+              <p class="elements__text">Снежок</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/daniil-silantev-VOkURVq_yik-unsplash_khrebet_nurgush.jpg" alt="Горы">
+            <div class="elements__box">
+              <p class="elements__text">Солнышко</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/natalya-letunova-bG6MTgEQvjw-unsplash.jpg" alt="кто-то лежит">
+            <div class="elements__box">
+              <p class="elements__text">Кто-то спит</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+          <div class="elements__element">
+            <img class="elements__image" src="./Images/natalya-letunova-ibT90tl5VCs-unsplash- moscow.jpg" alt="москва-дома">
+            <div class="elements__box">
+              <p class="elements__text">Москва</p>
+              <div class="elements__button"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+      </footer>
+      <section class="popup">
+
+        <div class="popup__overlay"></div>
+        <div class="popup__container">
+          <button class="popup__close-button" type="button"></button>
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <form class="popup__form">    
+            <fieldset class="popup__fieldset">
+              <input type="text" class="popup__item popup__item_name" placeholder="Жак-Ив Кусто">
+              <input type="text" class="popup__item" placeholder="Исследователь океана">
+            </fieldset>
+          </form>
+          <button type="submit" class="popup__save-button">Сохранить</button>
+        </div>
+
+      </section>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

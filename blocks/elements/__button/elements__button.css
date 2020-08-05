@@ -1,0 +1,13 @@
+.elements__button {
+  background: url(../../../Images/element__like.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 22px;
+  min-height: 22px;
+}
+
+.elements__button:hover {
+  transition: ease-out 0.4s ;
+  opacity: 0.6;
+  cursor: pointer;
+}
