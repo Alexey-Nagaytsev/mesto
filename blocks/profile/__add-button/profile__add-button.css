@@ -6,7 +6,7 @@
   height: 50px;
   border-radius: 2px;
   border: 2px solid #fff;
-  margin: auto;
+  margin-top: 35px;
   padding: 0; 
 }
 
@@ -16,9 +16,8 @@
   transition: ease-out 0.4s ;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width:750px) {
   .profile__add-button {
     width: 282px;
-    margin: auto;
   }
 }

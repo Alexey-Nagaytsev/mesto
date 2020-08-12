@@ -1,4 +1,4 @@
-@import url(../header/__logo/header__logo.css);
+@import url(./__logo/header__logo.css);
 .header {
   max-width: 882px;
   padding-top: 45px;
@@ -6,18 +6,8 @@
   border-bottom: 1px solid #545454;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 880px) {
   .header {
-    max-width: 280px;
-    display: flex;
-    justify-content: center;
-  
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .header {
-    max-width: 324px;
-    justify-content: start;
+    padding-left: 40px;
   }
 }

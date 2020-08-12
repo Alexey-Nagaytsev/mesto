@@ -1,4 +1,4 @@
-.elements__button {
+.element__button {
   background: url(../../../Images/element__like.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6,7 +6,7 @@
   min-height: 22px;
 }
 
-.elements__button:hover {
+.element__button:hover {
   transition: ease-out 0.4s ;
   opacity: 0.6;
   cursor: pointer;

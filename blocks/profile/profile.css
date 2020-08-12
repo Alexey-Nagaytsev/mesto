@@ -1,22 +1,24 @@
-@import url(../profile/__add-button/profile__add-button.css);
-@import url(../profile/__avatar/profile__avatar.css);
-@import url(../profile/__edit-button/profile__edit-button.css);
-@import url(../profile/__info/profile__info.css);
-@import url(../profile/__subtitle/profile__subtitle.css);
-@import url(../profile/__title/profile__title.css);
-@import url(../profile/__button/profile__button.css);
-@import url(../profile/__wrapper/profile__wrapper.css);
+@import url(./__add-button/profile__add-button.css);
+@import url(./__avatar/profile__avatar.css);
+@import url(./__button/profile__button.css);
+@import url(./__edit-button/profile__edit-button.css);
+@import url(./__info/profile__info.css);
+@import url(./__subtitle/profile__subtitle.css);
+@import url(./__title/profile__title.css);
 .profile {
   max-width: 882px;
-  margin: 0 auto 51px;
   display: flex;
+  flex-direction: row;
+  margin: 0 auto 47px;
+  justify-content: space-between;
   box-sizing: border-box;
-  }
-  
-@media screen and (max-width: 585px) {
+}
+
+@media screen and (max-width: 750px) {
   .profile {
-    max-width: 282px;
-    margin-bottom: 36px;
+    margin-top: 40px;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
