@@ -1,7 +1,7 @@
 .profile__button {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 16px;
 }
 
