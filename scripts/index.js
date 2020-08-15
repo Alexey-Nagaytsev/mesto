@@ -14,8 +14,8 @@ let profileSubtitle  = document.querySelector('.profile__subtitle');
 //открытие окна
 const popupOpened = function() {
   popup.classList.add('popup_opened');
-  profileTitle.value = nameInput.textContent;
-  profileSubtitle.value = jobInput.textContent;
+  popupItemName.value = profileTitle.textContent;
+  popupItemJob.value = profileSubtitle.textContent;
 }
 
 //закрытие окна
