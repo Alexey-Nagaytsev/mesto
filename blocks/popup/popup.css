@@ -5,12 +5,20 @@
 @import url(./__save-button/popup__save-button.css);
 @import url(./__title/popup__title.css);
 @import url(./__fieldset/popup__fieldset.css);
+@import url(./__image-container/popup__image-container.css);
+@import url(./__imagebox-close/popup__imagebox-close.css);
+@import url(./__imagebox-image/popup__imagebox-image.css);
+@import url(./__imagebox-container/popup__imagebox-container.css);
+@import url(./_imagebox/popup_imagebox.css);
+@import url(./__imagebox-text/popup__imagebox-text.css);
 .popup {
-  display: none;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, .5);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s linear, visibility .5s ease-in-out;
 }

@@ -1,0 +1,18 @@
+.popup__imagebox-close {
+  background: url(../../../Images/close_icon.svg);
+  background-position: center;
+  position: absolute;
+  background-size: contain;
+  border: none;
+  top: -35px;
+  right: -35px;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+
+.popup__imagebox-close:hover {
+  opacity: 0.6;
+  transition: ease-out 0.4s ;
+  cursor: pointer;
+}

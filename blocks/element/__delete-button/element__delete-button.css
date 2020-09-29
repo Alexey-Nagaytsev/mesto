@@ -8,7 +8,6 @@
   right: 15px;
   position: absolute;
 }
-
 .element__delete-button:hover {
   transition: ease-out 0.4s ;
   opacity: 0.6;

@@ -1,4 +1,4 @@
-.element__button {
+.element__like-button {
   background: url(../../../Images/element__like.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6,8 +6,7 @@
   min-height: 22px;
   border: none;
 }
-
-.element__button:hover {
+.element__like-button:hover {
   transition: ease-out 0.4s ;
   opacity: 0.6;
   cursor: pointer;

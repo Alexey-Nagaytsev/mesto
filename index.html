@@ -26,61 +26,31 @@
         </section>
 
         <section class="elements">
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
+           <!--<button class="element__delete-button"></button>
             <img class="element__image" src="./Images/ilnur_kalimullin_kazan.jpg" alt="Казань">
             <div class="element__box">
               <h3 class="element__text">Казань</h3>
               <button class="element__button" type="button"></button>
-            </div>
-          </div>
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
-            <img class="element__image" src="./Images/alexander_popov_unsplash_moscow_one.jpg" alt="Москва из-за угла">
-            <div class="element__box">
-              <p class="element__text">Москва из-за угла</p>
-              <button class="element__button" type="button"></button>
-            </div>
-          </div>
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
-            <img class="element__image" src="./Images/alexander_popov_snow.jpg" alt="Снежок">
-            <div class="element__box">
-              <h3 class="element__text">Снежок</h3>
-              <button class="element__button" type="button"></button>
-            </div>
-          </div>
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
-            <img class="element__image" src="./Images/daniil_silantev_mountains.jpg" alt="Горы">
-            <div class="element__box">
-              <h3 class="element__text">Солнышко</h3>
-              <button class="element__button" type="button"></button>
-            </div>
-          </div>
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
-            <img class="element__image" src="./Images/natalya_letunova_low.jpg" alt="кто-то лежит">
-            <div class="element__box">
-              <h3 class="element__text">Кто-то спит</h3>
-              <button class="element__button" type="button"></button>
-            </div>
-          </div>
-          <div class="element">
-            <button class="element__delete-button" type="button"></button>
-            <img class="element__image" src="./Images/natalya_letunova_moscow.jpg" alt="москва-дома">
-            <div class="element__box">
-              <h3 class="element__text">Москва</h3>
-              <button class="element__button" type="button"></button>
-            </div>
-          </div>
+            </div>-->
         </section>
+        
+        <template id="element">
+          <div class="element">
+            <button class="element__delete-button"></button>
+            <img class="element__image" src="" alt="">
+            <div class="element__box">
+              <h3 class="element__text"></h3>
+              <button class="element__like-button" type="button"></button>
+            </div>
+          </div>
+        </template>
+
       </main>
       <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
       </footer>
-      <section class="popup">
 
+      <section class="popup popup_changeProfile">
         <div class="popup__container">
           <button class="popup__close-button" type="button"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
@@ -92,8 +62,32 @@
             <button type="submit" class="popup__save-button">Сохранить</button>
           </form>
         </div>
-
       </section>
+
+      <section class="popup popup_addCard">
+        <div class="popup__container">
+          <button class="popup__close-button popup__close-button_addCard" type="button"></button>
+          <h2 class="popup__title">Новое место</h2>
+          <form class="popup__form">    
+            <fieldset class="popup__fieldset">
+              <input type="text" class="popup__item popup__item_paragraph" value="Название">
+              <input type="text" class="popup__item popup__item_link" value="Ссылка на картинку">
+            </fieldset>
+            <button type="submit" class="popup__save-button popup__button-save_addCard">Создать</button>
+          </form>
+        </div>
+      </section>
+
+      <div class="popup popup_imagebox">
+        <div class="popup__imagebox-container">
+          <button class="popup__imagebox-close" type="button"></button>
+          <figure class="popup__image-container">
+            <img class="popup__imagebox-image" src="" alt="">
+            <figcaption class="popup__imagebox-text"></figcaption>
+          </figure>
+        </div>
+      </div>
+
     <script src="scripts/index.js"></script>
   </body>
 </html>
