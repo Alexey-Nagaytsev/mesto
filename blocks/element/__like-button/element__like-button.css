@@ -5,6 +5,7 @@
   min-width: 22px;
   min-height: 22px;
   border: none;
+  outline: none;
 }
 .element__like-button:hover {
   transition: ease-out 0.4s ;
